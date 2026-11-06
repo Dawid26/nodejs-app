@@ -7,6 +7,10 @@ app.get('/', function(req, res){
 	console.log('Zażądano strony Start');
 });
 
+app.get('/services', function(req, res){
+	res.send('DevOps - strona Serivices!');
+	console.log('Zażądano strony Serivices');
+});
 app.get('/users', function(req, res){
 	res.send('DevOps - strona Users!');
 	console.log('Zażądano strony Users');
